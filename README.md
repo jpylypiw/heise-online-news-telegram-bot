@@ -2,7 +2,7 @@
 
 This is the inofficial heise online telegram bot.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/jpylypiw/heise-online-news-telegram-bot) [![GitHub license](https://img.shields.io/github/license/jpylypiw/heise-online-news-telegram-bot)](https://github.com/jpylypiw/heise-online-news-telegram-bot/blob/master/LICENSE) ![Beerpay](https://img.shields.io/beerpay/jpylypiw/heise-online-news-telegram-bot)
+![Travis (.org)](https://img.shields.io/travis/jpylypiw/heise-online-news-telegram-bot) ![Codacy grade](https://img.shields.io/codacy/grade/4ba2b0041b564d86b173fa02419dd2e8) ![GitHub repo size](https://img.shields.io/github/repo-size/jpylypiw/heise-online-news-telegram-bot) [![GitHub license](https://img.shields.io/github/license/jpylypiw/heise-online-news-telegram-bot)](https://github.com/jpylypiw/heise-online-news-telegram-bot/blob/master/LICENSE) ![Beerpay](https://img.shields.io/beerpay/jpylypiw/heise-online-news-telegram-bot)
 
 ## Installation
 
