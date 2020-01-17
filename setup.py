@@ -26,6 +26,8 @@ setup(
         'pytest-runner',
     ],
     tests_require=[
-        'pytest',
+        'pytest-cov',
+        'pytest-pythonpath',
+        'pytest'
     ]
 )

@@ -6,3 +6,4 @@ users.ini
 doc/build/*
 *coverage*
 .eggs
+*.egg-info
