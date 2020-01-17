@@ -3,3 +3,6 @@ config.ini
 news.ini
 users.ini
 *.pyc
+doc/build/*
+*coverage*
+.eggs
