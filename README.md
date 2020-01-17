@@ -2,6 +2,8 @@
 
 This is the inofficial heise online telegram bot.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/jpylypiw/heise-online-news-telegram-bot) [![GitHub license](https://img.shields.io/github/license/jpylypiw/heise-online-news-telegram-bot)](https://github.com/jpylypiw/heise-online-news-telegram-bot/blob/master/LICENSE) ![Beerpay](https://img.shields.io/beerpay/jpylypiw/heise-online-news-telegram-bot)
+
 ## Installation
 
 This is how to install and run the software afterwards
@@ -57,3 +59,10 @@ Enable autostart of daemon:
 
 Start daemon:
 `systemctl start heise-online-bot`
+
+### TO DO's
+
+- error handling improvements
+- logging improvements - more logging messages for all log levels
+- testing using unit tests
+- release planning
