@@ -60,9 +60,17 @@ Enable autostart of daemon:
 Start daemon:
 `systemctl start heise-online-bot`
 
-### TO DO's
+## TO DO's
 
 - error handling improvements
 - logging improvements - more logging messages for all log levels
 - testing using unit tests
 - release planning
+
+## DEV Environment
+
+To create a development environment you have to execute the following command after cloning the repository:
+
+``` bash
+python3 setup.py develop
+```
