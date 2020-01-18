@@ -27,6 +27,7 @@ def set_news_ini():
     config = Config(configpath + ".example")
     config.set_value("NEWS", "url", "https://www.heise.de/rss/heise-atom.xml")
     config.set_value("NEWS", "last_id", "")
+    config.set_value("NEWS", "interval", "5")
 
 
 def set_users_ini():

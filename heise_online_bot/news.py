@@ -75,12 +75,13 @@ class News(object):
                 self.newsconfig.set_value("NEWS", "last_id", news["id"])
 
     def run_thread(self):
-        slept = 60
+        interval = self.newsconfig.get_value("NEWS", "interval") * 60
+        slept = interval
         while True:
             if not self.stopflag:
                 sleep(1)
                 slept = slept + 1
-                if slept >= 60:
+                if slept >= interval:
                     self.check_for_news()
                     slept = 0
             else:

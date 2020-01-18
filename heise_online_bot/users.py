@@ -12,7 +12,7 @@ class Users(object):
         prefix = ";"
         if curr_ids == "":
             prefix = ""
-        if not chat_id in curr_ids:
+        if chat_id not in curr_ids:
             self.usersconfig.set_value("USERS", "chat_ids", curr_ids + "{}{}".format(prefix, chat_id))
             return True
         return False
