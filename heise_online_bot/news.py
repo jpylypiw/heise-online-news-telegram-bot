@@ -54,6 +54,7 @@ class News(object):
             self.newsconfig.set_value("NEWS", "last_id", last_news_id)
         if news[0]["id"] != last_news_id:
             self.send_news(news, last_news_id)
+            self.newsconfig.set_value("NEWS", "last_id", news[0]["id"])
 
     def send_news(self, newsdict, last_news_id):
         for news in newsdict:
@@ -71,8 +72,9 @@ class News(object):
                     url_image = html_parser.img_src
                     url_image = "[To Image](" + url_image + ")"
                     text = "*" + title + "*\n" + published + "\n\n" + description + "\n\n" + url_image + " - " + url_article
-                    self.bot.send_message(chat_id, text, self.dispatcher.bot.send_message, "Markdown", False)
-                self.newsconfig.set_value("NEWS", "last_id", news["id"])
+                    self.bot.send_message(
+                        chat_id, text, self.dispatcher.bot.send_message,
+                        "Markdown", False)
 
     def run_thread(self):
         interval = self.newsconfig.get_value("NEWS", "interval") * 60
